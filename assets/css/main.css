@@ -46,7 +46,7 @@ h1 {
 /* The hero image */
 .hero-image-1 {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("https://kyledwagner.github.io/2-day.laos-adventures/assets/images/hero/WhatsApp Image 2019-01-13 at 11.51.42.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("https://kyledwagner.github.io/3-day.laos-adventures/assets/images/hero/27010813886_480e33cefd_o.jpg");
 
   /* Set a specific height */
   height: 60%;
@@ -61,7 +61,7 @@ h1 {
 /* The hero image */
 .hero-image-2 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("https://kyledwagner.github.io/2-day.laos-adventures/assets/images/hero/laos-luang-prabang-night-market-temple-photo-by-cyril-eberle-CEB_3892.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("https://kyledwagner.github.io/3-day.laos-adventures/assets/images/hero/TT-3-day-hero");
 
     /* Set a specific height */
     height: 60%;
@@ -76,7 +76,7 @@ h1 {
 /* The hero image */
 .hero-image-3 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("https://kyledwagner.github.io/2-day.laos-adventures/assets/images/hero/laos-luang-prabang-tat-kuang-si-waterfall-photo-by-cyril-eberle-CEB_4304_.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("https://kyledwagner.github.io/3-day.laos-adventures/assets/images/hero/northern-laos-phongsali-nam-khan-food-meal-spread-on-bamboo-leaf-tiger-trail-photo-by-cyril-eberle-CEB-9483.jpg");
 
     /* Set a specific height */
     height: 60%;
@@ -121,7 +121,7 @@ h1 {
   /* The hero image */
 .hero-image-6 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("https://kyledwagner.github.io/2-day.laos-adventures/assets/images/hero/TCS-Luang-Prabang-Buddhist-Life-Photo-by-MALAO-Studios-IMG_9092-Edit.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("https://kyledwagner.github.io/2-day.laos-adventures/assets/images/hero/laos-luang-prabang-tat-kuang-si-waterfall-photo-by-cyril-eberle-CEB_4304_.jpg");
 
     /* Set a specific height */
     height: 60%;
@@ -132,6 +132,21 @@ h1 {
     background-size: cover;
     position: relative;
   }
+
+    /* The hero image */
+.hero-image-7 {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("https://kyledwagner.github.io/2-day.laos-adventures/assets/images/hero/laos-luang-prabang-night-market-temple-photo-by-cyril-eberle-CEB_3892.jpg");
+
+  /* Set a specific height */
+  height: 60%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
   @media (min-width: 1024px) {
     .container {
