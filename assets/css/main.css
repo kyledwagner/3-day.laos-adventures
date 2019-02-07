@@ -41,6 +41,17 @@ h1 {
   font-family: somethingwild-regular;
   font-size: 72pt;
   margin-top: -1.5rem !important;
+  margin-left: 0.25rem !important;
+  margin-right: 0.25rem !important;
+  line-height: 60% !important;
+}
+
+h5 {
+  margin-bottom: 1.5rem !important;
+}
+
+h6 {
+  margin-top: 2rem !important;
 }
 
 /* The hero image */
@@ -148,6 +159,13 @@ h1 {
   position: relative;
 }
 
+@media (min-width: 1024px) {
+  h1 {
+    margin-top: 1rem !important;
+    margin-bottom: 3rem !important;
+    }
+  }
+
   @media (min-width: 1024px) {
     .container {
       max-width: 50% !important;
@@ -163,3 +181,9 @@ h1 {
    position: absolute;
    top: 100% !important;
  }
+
+ @media (max-width: 320px) {
+  .carousel {
+    height: 80vh !important;
+    }
+  }
