@@ -59,6 +59,9 @@
   fbq('init', '396954771048974');
   fbq('track', 'PageView');
 </script>
+<script>
+  function Lead(){ fbq('track','Lead'); }
+</script>
 <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=396954771048974&ev=PageView&noscript=1"
 /></noscript>
@@ -144,9 +147,9 @@
 
 	 <!-- Book Now Dropdown -->
 	 <ul id="dropdown" class="dropdown-content dropdown-mob">
-		<li><a class="center-align red-text waves grey lighten-4" href="https://www.wetravel.com/checkout_embed?uuid=22186946">With Hotel</a></li>
+		<li><a class="center-align red-text waves grey lighten-4" href="https://www.wetravel.com/checkout_embed?uuid=22186946" onclick="Lead();">With Hotel</a></li>
 		<li class="divider" tabindex="-1"></li>
-		<li><a class="center-align red-text waves grey lighten-4" href="https://www.wetravel.com/checkout_embed?uuid=13541155">Tour Only</a></li>
+		<li><a class="center-align red-text waves grey lighten-4" href="https://www.wetravel.com/checkout_embed?uuid=13541155" onclick="Lead();">Tour Only</a></li>
 	  </ul>
 
 	<!-- Itinerary Tabbed Card -->
