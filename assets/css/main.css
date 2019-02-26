@@ -187,3 +187,8 @@ h6 {
     height: 80vh !important;
     }
   }
+
+  .card-panel {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
